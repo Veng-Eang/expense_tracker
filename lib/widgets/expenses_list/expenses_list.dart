@@ -30,7 +30,8 @@ class ExpensesList extends StatelessWidget {
     return Container(
       color: Colors.green,
       child: const Align(
-        child: const Row(
+        alignment: Alignment.centerLeft,
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             SizedBox(
@@ -50,7 +51,6 @@ class ExpensesList extends StatelessWidget {
             ),
           ],
         ),
-        alignment: Alignment.centerLeft,
       ),
     );
   }
